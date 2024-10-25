@@ -6,5 +6,5 @@ biblioteca CLI-lib.
 Escolhemos desenvolver o jogo da forca,  envolve não apenas adivinhar palavras, mas também criar uma estratégia para maximizar as chances de ganhar, não sendo "enforcado".
 
 Integrantes do Grupo: João Lira Github: joaosanli
-Priscila Maciel Github:
+Priscila Maciel Github: PriscilaMdeLima
 Thaissa Fernandes Github: tsfLua
