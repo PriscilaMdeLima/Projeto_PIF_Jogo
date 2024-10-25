@@ -1,5 +1,9 @@
 # Projeto_PIF_Jogo
 
+Disciplina: Programação Imperativa e Funcional - 2024.2
+Instituição de ensino: CESAR School
+Professor: Diogo de Freitas Bezerra
+
 Este projeto visa o desenvolvimento de um jogo utilizando a linguagem C, com o auxílio da
 biblioteca CLI-lib.
 
