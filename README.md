@@ -20,7 +20,10 @@
 
 **Jogo da Forca em C**
 
+Nome do Jogo: Acerte ou Morra
+
 Grupo: 
+
 Priscila Maciel(github: PriscilaMdeLima)
 Thaissa Fernandes(github:)
 João Lucas Lira(github:)
