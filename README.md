@@ -20,6 +20,11 @@
 
 **Jogo da Forca em C**
 
+Grupo: 
+Priscila Maciel(github: PriscilaMdeLima)
+Thaissa Fernandes(github:)
+João Lucas Lira(github:)
+
 **Linha de comando para compilar:**
 
 ```
