@@ -1,21 +1,4 @@
-/Jogo-Da-Forca            
-├── Makefile                
-├── build/                 
-│   ├── main.o             
-│   ├── screen.o           
-│   ├── timer.o            
-│   ├── keyboard.o         
-│   └── Jogo-Da-Forca      
-├── include/               
-│   ├── screen.h           
-│   ├── timer.h            
-│   ├── keyboard.h         
-│   └── main.h             
-└── src/                   
-    ├── main.c             
-    ├── screen.c           
-    ├── timer.c            
-    └── keyboard.c 
+
 
 
 **Jogo da Forca em C**
