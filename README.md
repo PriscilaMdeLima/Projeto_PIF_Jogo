@@ -21,6 +21,11 @@ gcc main.c CLI.c -o jogo_da_forca
 
 Desenvolver um jogo baseado em modo texto que atenda aos seguintes requisitos:
 
+**Pontuação:**
+
+O jogador inicia o jogo com 100 pontos, a cada erro perde 10 pontos, ao zerar a pontuação o jogador está enforcado.
+
+
 1. **Utilização da linguagem C e da biblioteca CLI-lib:**
 
 O jogo utiliza a biblioteca CLI-lib para alterar a cor das letras, proporcionando uma experiência visual mais atraente. Fizemos uma adaptação que utiliza apenas as funcionalidades necessárias para a nossa ideia, focando especificamente nas mudanças de cor do texto exibido ao usuário.
