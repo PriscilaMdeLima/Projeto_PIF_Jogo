@@ -23,8 +23,24 @@ Desenvolver um jogo baseado em modo texto que atenda aos seguintes requisitos:
 
 **Pontuação:**
 
-O jogador inicia o jogo com 100 pontos, a cada erro perde 10 pontos, ao zerar a pontuação o jogador está enforcado.
+A pontuação  do nosso jogo acontece multiplicando cada palavra acertada por 10, ao errar perde 10 pontos. Porém a pontuação não determina se o jogador perdeu ou ganhou, pois ganha se acertar a palavra. 
+O jogador ainda pode escolher entre 3 níveis de dificuldade:
+Nível 1: Fácil, jogador tem 8 tentativas para acertar 
+Nível 2: Médio, jogador tem 6 tentativas para acertar
+Nível 3: Difícil, jogador tem 4 chances para acertar
 
+No código podemos ver a lógica de pontuação dentro da função jogo e especificamente logo após a saída do while no IF e no  Else:
+if (ganhou(palavra, palavraAdivinhada)) {
+    printf("\nParabéns, você venceu!\n");
+    jogador->pontos += tamanhoPalavra * 10;
+} else {
+    printf("\nVocê perdeu! A palavra era: %s\n", palavra);
+}
+
+Para entrar na candicional If ou Else tem que passar pela verificação chamada "Ganhou" que verifica se o jogador acertou ou errou todas as letras no código:
+ int ganhou(char* palavra, char* palavraAdivinhada) {
+    return strcmp(palavra, palavraAdivinhada) == 0;
+}
 
 1. **Utilização da linguagem C e da biblioteca CLI-lib:**
 
