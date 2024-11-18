@@ -249,9 +249,12 @@ void jogar(Jogador *jogador, char* tema) {
             }
         }
 
-        if (!acertou) {
+           if (!acertou) {
             tentativasRestantes--;
-        }
+            jogador->pontos -= 10;
+             if (jogador->pontos < 0) jogador->pontos = 0;
+              printf("Letra errada! Você perdeu 10 pontos. Pontuação atual: %d\n", jogador->pontos);
+           }
     }
 
     if (ganhou(palavra, palavraAdivinhada)) {
