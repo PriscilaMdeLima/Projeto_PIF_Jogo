@@ -1,0 +1,18 @@
+{
+    "tecnologia": 
+    [
+    "computador", 
+    "internet", 
+    "software"
+    ],
+    "esportes": 
+    ["futebol", 
+    "basquete", 
+    "tênis"
+    ],
+    
+    "animais": ["gato", 
+    "cachorro", 
+    "pássaro"
+    ]
+}
