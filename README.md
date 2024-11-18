@@ -8,8 +8,8 @@ Nome do Jogo: Acerte ou Morra
 Grupo: 
 
 Priscila Maciel(github: PriscilaMdeLima)
-Thaissa Fernandes(github:)
-João Lucas Lira(github:)
+Thaissa Fernandes(github:tfsLua)
+João Lucas Lira(github:joaosanli)
 
 **Linha de comando para compilar:**
 
