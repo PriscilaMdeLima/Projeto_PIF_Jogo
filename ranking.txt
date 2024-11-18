@@ -1,0 +1,3 @@
+Nome: icarus, Pontos: 350
+Nome: Icaur, Pontos: 110
+Nome: Caio, Pontos: 70
